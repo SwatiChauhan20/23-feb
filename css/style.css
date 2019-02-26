@@ -36,12 +36,12 @@ hr{
 	float: right;
 }
 .mdc-button--raised{
-    /*background-color: #a02047;*/
-    padding: 14px;
-    margin: 5px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
+	/*background-color: #a02047;*/
+	padding: 14px;
+	margin: 5px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
 }
 .b1{
 	background-color: #9f2046!important;
@@ -78,14 +78,30 @@ hr{
 	background-color: #2D83BB;
 }
 .header_middle {
-    display: inline-block;
-    width: 100%;
+	display: inline-block;
+	width: 100%;
+}
+.sec4{
+	background-color: #3e8ac4;
+}
+.search input[type=text]{
+	width: 50%;
+	padding: 15px;
+	margin: 20px;
+
+}
+.sign1{
+	background-color: #ebaf41;
+	background-image: linear-gradient(#f5e67b,#e6a02a);
+	margin-left: -28px;
+	padding: 24px;
 }
 .mdc-text-field--with-leading-icon .mdc-text-field__input {
-     padding-left: 48px; 
-    padding-right: 339px;
+	padding-left: 48px; 
+	padding-right: 339px;
 }
 .bgimg{
+	background-attachment: fixed;
 	width: 100%;
 	height: 600%;
 }
@@ -101,13 +117,13 @@ hr{
 	padding-left: 172px;
 }
 .caption h2{
-    margin-top: -465px;
-    font-size: 50px;
-    color: #3d4848;
+	margin-top: -465px;
+	font-size: 50px;
+	color: #3d4848;
 }
 .caption span{
-    font-size: 20px;
-    color: #3d4848;
+	font-size: 20px;
+	color: #3d4848;
 }
 .mdc-toolbar{
 	background-color: white;
@@ -179,7 +195,7 @@ hr{
 	padding: 6px;
 }
 .details_blue{
-		border: 1px solid #1D3E7E;
+	border: 1px solid #1D3E7E;
 }
 .details_blue h2{
 	background-color: #1D3E7E;
@@ -310,9 +326,9 @@ hr{
 	color: #197bba;
 }
 .holidays {
-  	border:1px solid lightgray;
-  	padding: 15px;
-  	text-align: center;
+	border:1px solid lightgray;
+	padding: 15px;
+	text-align: center;
 }
 .holidays_btn1, .holidays_btn2, .holidays_btn3, .holidays_btn4, .holidays_btn5, .holidays_btn6{
 	margin-bottom:15px;
@@ -326,41 +342,41 @@ hr{
 	text-align: center;
 }
 .holidays_txt1{
-  	color:#6c4c95;
+	color:#6c4c95;
 }
 .holidays_btn1{
 	background-color: #6c4c95;
 }
 .holidays_txt2{
-  	color:#d7383c;
- }
+	color:#d7383c;
+}
 .holidays_btn2{
-  	background-color: #d7383c;
+	background-color: #d7383c;
 }
 .holidays_txt3{
-  	color:#153b86;
+	color:#153b86;
 }
 .holidays_btn3{
-  	background-color: #153b86;
+	background-color: #153b86;
 }
 .holidays_txt4{
-  	color:#a31a46;
+	color:#a31a46;
 }
 .holidays_btn4{
-  	background-color: #a31a46;
+	background-color: #a31a46;
 }
 .holidays_txt5{
-  	color:#ebaf41;
+	color:#ebaf41;
 }
 .holidays_btn5{
-  	background-color: #ebaf41;
-  	background-image: linear-gradient(#f5e67b,#e6a02a);
+	background-color: #ebaf41;
+	background-image: linear-gradient(#f5e67b,#e6a02a);
 }
 .holidays_txt6{
-  	color:#2d87c3;
+	color:#2d87c3;
 }
 .holidays_btn6{
-  	background-color: #2d87c3;
+	background-color: #2d87c3;
 }
 .subheader, .para_txt{
 	text-align: center;
@@ -373,6 +389,7 @@ hr{
 }
 .review{
 	background-image: url(../images/slider.jpg);
+	background-attachment: fixed;
 	height: 600px;
 	width: 99%;
 	background-repeat: no-repeat;
@@ -393,41 +410,47 @@ hr{
 	color: white;
 }
 .footer{
-  background-color: #3f3f41;
+	background-color: #3f3f41;
 }
 .footer_about{
-  color:#fee06c;
+	color:#fee06c;
 }
 .footer_about{
-  color: white;
+	color: white;
 }
 .f_img img{
-  height: 70px;
-  width: 70px;
-  margin-top: 10px;
+	height: 70px;
+	width: 70px;
+	margin-top: 10px;
 }
 .footer_list2{
-  color: #ed8f4f;
-  font-family: 'work_sansbold';
+	color: #ed8f4f;
+	font-family: 'work_sansbold';
 }
 .footer_title{
 	color:#ffdb77;
 }
 .footer_list1{
-  color:#ffdb77;
+	color:#ffdb77;
 }
 .footer_list3{
-  color: #d33e58;
+	color: #d33e58;
 }
 .footer_list4{
-  color: #6d568b;
+	color: #6d568b;
 }
 .footer_list5{
-  color: #7679db;
+	color: #7679db;
 }
 .footer_list6{
-  color: #6fa5ce;
+	color: #6fa5ce;
 }
 .footer_bottom{
- background-color: #38383a;
+	background-color: #38383a;
+	width: 100%;
+	bottom: 0;
+}
+.footer_bottom p{
+	padding: 5px;
+	text-align: center;
 }
